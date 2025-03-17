@@ -1,0 +1,59 @@
+
+:root{
+    --primary: #0699A6;
+    --secundary: #9e8c6c;
+    --background: #FFF;
+    --bg-header: #9e8c6c11;
+    --text-light: #333;
+    --text-dark: #fff;
+}
+
+/*---------------------*/
+
+#header {
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-header);
+    padding: 180px 165px 217px 165px;
+} 
+.info {
+    display: flex;
+    margin: 0 auto;
+}
+.profile-text{
+    align-content: center;
+    width: 50%;
+    margin-left: 125px;
+}
+.firt-paragraph{
+    font-family: PT Sans Narrow;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;  
+    margin: 0 auto;
+    color: var(--secundary);
+}
+.name {
+    font-family: Playfair Display;
+    font-weight: 900;
+    font-size: 126px;
+    line-height: 112px;
+    letter-spacing: -2.17px;
+    margin: 10px auto 40px ;
+}
+.btn{
+    margin-top: 40px;
+    font-family: PT Sans Narrow;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text-dark);
+    padding: 18px 62px;
+    background-color: var(--primary);
+}
