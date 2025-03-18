@@ -519,11 +519,18 @@ body{
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     margin-top: 10px;
 }
 
 .blue-block {
+    width: 60px;
+    height: 8px;
+    background-color: var(--primary);
+    margin: 1rem 0;
+}
+.blue-block-ocult {
+    display: none;
     width: 60px;
     height: 8px;
     background-color: var(--primary);
@@ -647,6 +654,45 @@ body{
         text-align: right;
     }
 }
+@media (max-width: 728px){
+    #container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .title-date-section-2a {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    .blue-block-ocult{
+        display: block;
+        margin-top: 40px;
+    }
+    .section-1a,
+    .section-2a{
+        margin: 0px 0px 20px 0px;
+    }
+    .paragrafo-section-2a{
+        margin-bottom: 40px;
+    }
+    .titulo-section-2a {
+        margin-top: 40px;
+    }
+    .section-1a {
+        margin-bottom: 70px;
+    }
+    .card-2f .titulo-section-2a {
+        margin-top: 40px;
+    }
+    .card-2b .titulo-section-2a{
+        margin-top: 40px;
+    }
+    .card-2a .paragrafo-section-2a{
+        margin-bottom: 40px;
+    }
+
+}
+
 
 @media (min-width: 992px) {
     .name {
