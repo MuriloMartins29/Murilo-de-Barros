@@ -194,7 +194,23 @@ body{
     color: var(--secundary);
     margin: 0;
 }
-
+.Rectangle {
+    display: flex;
+    background-color: var(--bg-header);
+    padding: 12px 62px;
+    margin-bottom: 20px;
+}
+.Rectangle-paragrafo{
+    width: 100%;
+    height: 24px;
+    margin: 0 auto;
+    font-family: PT Sans Narrow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+}
 .date {
     font-weight: 400;
     font-size: 16px;
@@ -239,7 +255,60 @@ body{
     margin-top: 60px;
     margin-bottom: 60px;
 }
+.section-trabalhos-textos{
+    display: flex;
+}
+.paragrafo-section-2a {
+    font-family: PT Sans Narrow;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+.Trabalhos-recentes {
+    display: flex;
+}
+.imagem-card1{
+    margin-right: 20px;
+}
+.section-trabalhos-textos{
+    display: flex;
+    align-items: baseline;
+}
+.Sites-nomes{
+    font-family: PT Sans Narrow;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 109px;
+}
+.Acessar-trabalhos {
+    font-family: PT Sans Narrow;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: right;
+    text-decoration: none;
+    color: var(--primary);
+
+}
+.card-2g .blue-block {
+    margin-top: 30px;
+}
+
+
+
+
+
 /*--------------------------------------------------------*/
+
+
+
+
 
 #footer {
     width: 100%;
@@ -347,6 +416,7 @@ body{
         margin: 0;
         text-align: right;
     }
+    
 }
 @media (max-width: 728px){
     #container {
@@ -383,6 +453,22 @@ body{
     }
     .card-2a .paragrafo-section-2a{
         margin-bottom: 40px;
+    }
+    .card-2g{
+        width: 100%;
+    }
+    .Trabalhos-recentes{
+        display: flex;
+        flex-direction: column;
+    }
+    .Trabalhos-card {
+        width: 100%;
+    }
+    .Rectangle{
+        padding-bottom: 40px;
+    }
+    .card-2g .blue-block {
+       display: none;
     }
 
 }
