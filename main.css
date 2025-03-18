@@ -101,7 +101,7 @@ body{
 }
 .section-2a{
     width: 100%;
-    margin: 2rem 138px 2rem 0px;
+    margin: 2rem 6rem 2rem 0;
     padding: 0;
 }
 .card-2a .paragrafo-section-2a{
@@ -235,6 +235,10 @@ body{
     margin-bottom: 0rem;
 }
 
+.card-2a .blue-block {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
 /*--------------------------------------------------------*/
 
 #footer {
@@ -330,6 +334,7 @@ body{
     
     .section-2a {
         flex: 1;
+        margin-left: 6rem;
     }
     
     .title-date-section-2a {
