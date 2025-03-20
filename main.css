@@ -128,7 +128,7 @@ body{
 .carrer-traits-title,
 .recent-works-title {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -137,31 +137,34 @@ body{
 
 .skillset,
 .awards {
+    font-family: PT Sans Narrow, sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 32px;
     letter-spacing: 0px;
     margin: 0 auto;
 }
 
 .carrer-traits {
+    font-family: PT Sans Narrow, sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 32px;
     letter-spacing: 0px;
     margin-bottom: 30px;
 }
 
 .carrer {
+    font-family: PT Sans Narrow, sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 32px;
     letter-spacing: 0px;
 }
 
 .recent-works {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 32px;
     letter-spacing: 0px;
     color: var(--primary);
@@ -197,12 +200,13 @@ body{
 .Rectangle {
     display: flex;
     background-color: var(--bg-header);
-    padding: 12px 62px;
-    margin-bottom: 20px;
+    padding: 10px 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .Rectangle-paragrafo{
     width: 100%;
-    height: 24px;
+    height: auto;
     margin: 0 auto;
     font-family: PT Sans Narrow;
     font-weight: 400;
@@ -283,7 +287,8 @@ body{
     line-height: 24px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-right: 109px;
+    margin-right: 105px;
+    height: auto;
 }
 .Acessar-trabalhos {
     font-family: PT Sans Narrow;
@@ -347,6 +352,10 @@ body{
     margin: 0.5rem auto;
     color: var(--primary);
     word-break: break-word;
+    text-decoration: none;
+}
+a.email:hover{
+    color: var(--secundary);
 }
 
 .rede-social {
@@ -448,6 +457,12 @@ body{
     .card-2f .titulo-section-2a {
         margin-top: 40px;
     }
+    .card-2e .blue-block{
+        margin-bottom: 20px;
+    }
+    .card-2f .blue-block{
+        margin-top: 20px;
+    }
     .card-2b .titulo-section-2a{
         margin-top: 40px;
     }
@@ -463,12 +478,22 @@ body{
     }
     .Trabalhos-card {
         width: 100%;
+        margin: 0 auto;
+        align-content: baseline;
     }
     .Rectangle{
-        padding-bottom: 40px;
+        padding: 20px 40px;
     }
     .card-2g .blue-block {
        display: none;
+    }
+    .imagem-card1 img {
+        margin: 0 auto;
+        width: 290px;
+    }
+    .imagem-card2 img{
+        margin: 0 auto;
+        width: 290px;
     }
 
 }
