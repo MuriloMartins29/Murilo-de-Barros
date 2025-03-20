@@ -323,6 +323,8 @@ body{
 }
 
 .footer-info {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     max-width: 800px;
     height: auto;
@@ -357,6 +359,9 @@ body{
 a.email:hover{
     color: var(--secundary);
 }
+a.numero:hover{
+    color: var(--secundary);
+}
 
 .rede-social {
     display: flex;
@@ -364,9 +369,8 @@ a.email:hover{
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
-    margin: 2rem auto 0;
+    margin: 1rem auto 0;
 }
-
 .list-social {
     margin: 10px;
 }
